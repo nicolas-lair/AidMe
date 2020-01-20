@@ -1,0 +1,23 @@
+name: aidme
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - nltk
+  - numpy
+  - pandas
+  - python=3.6.5=hc3d631a_0
+  - scikit-learn
+  - scipy
+  - spacy
+  - pytorch-cpu
+  - torchvision-cpu
+  - torchtext=0.4.0
+  - xgboost
+  - cython
+  - joblib
+  - pip
+  - pip:
+      - git+https://github.com/salaniz/pycocoevalcap
