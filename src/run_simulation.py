@@ -10,7 +10,7 @@ import logger as lg
 from UserGrammar.corpus import _generate_corpus
 from UserGrammar.corpus_data import default_train_corpus
 from dialog_flow import DialogFlowAgent
-from oracle_agent import Agent as oracle_Agent, get_metrics
+from agent import Agent as oracle_Agent, get_metrics
 
 logger = lg.logging.getLogger(name='run_simulation')
 logger.setLevel(lg.logging.DEBUG)

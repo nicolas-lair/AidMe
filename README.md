@@ -27,7 +27,8 @@ You also need to download spacy english corpus.
 python -m spacy download en
 ```
 
-Create a folder data and unzip Paragram_sl999 (download from http://www.cs.cmu.edu/~jwieting/)
+Finally create a folder data/word_embedding and unzip Paragram_sl999 in it (download from http://www.cs.cmu.edu/~jwieting/)
+
 
 ## Reproducing demos
 
