@@ -2,33 +2,31 @@
 
 ## Installation
 
-You will need Conda (prefer miniconda, see [here](https://conda.io/docs/user-guide/install/index.html) for installation) to create a virtual environment and install the required packages.
-Run setup.sh to create the virtual environment, install dependencies and download some necessary data.
+### Requirements: Conda and gcc
+- You will need Conda (prefer miniconda, see [here](https://docs.conda.io/en/latest/miniconda.html) for installation) to create a virtual environment and install the required packages.
+If you need to install conda, you will have to close the terminal window and reopen it before proceeding to the following instructions.
 
-```
-./setup.sh
-```
+- You will also need gcc on Linux (`sudo apt-get install gcc`).
 
-*OR* run the following command for a step by step process.
-To install a virtual environment, run :
+### Dependencies
+
+Creata a virtual environment and install dependencies:
 
 ```shell script
 conda env create -f requirements.yml
 ```
 
-Once the virtual environment is set up, activate it:
- ```shell script
+Activate the environment
+
+```shell script
 conda activate aidme
 ```
 
-You also need to download spacy english corpus. 
+You can then run setup.sh to download some necessary data :
 
-```shell script
-python -m spacy download en
 ```
-
-Finally create a folder data/word_embedding and unzip Paragram_sl999 in it (download from http://www.cs.cmu.edu/~jwieting/)
-
+./setup.sh
+```
 
 ## Reproducing demos
 
