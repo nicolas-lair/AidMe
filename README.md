@@ -34,3 +34,24 @@ You can then run setup.sh to download some necessary data :
 ## Reproducing demos
 
 To be continued
+
+
+## Citation : 
+
+@inproceedings{10.1145/3377325.3377490,
+author = {Lair, Nicolas and Delgrange, Clement and Mugisha, David and Dussoux, Jean-Michel and Oudeyer, Pierre-Yves and Dominey, Peter Ford},
+title = {User-in-the-Loop Adaptive Intent Detection for Instructable Digital Assistant},
+year = {2020},
+isbn = {9781450371186},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3377325.3377490},
+doi = {10.1145/3377325.3377490},
+booktitle = {Proceedings of the 25th International Conference on Intelligent User Interfaces},
+pages = {116–127},
+numpages = {12},
+keywords = {digital assistant, user-in-the-loop, learning by interaction, intent detection, natural language processing, multi-domain},
+location = {Cagliari, Italy},
+series = {IUI ’20}
+}
+  
