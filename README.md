@@ -37,7 +37,7 @@ To be continued
 
 
 ## Citation : 
-
+```
 @inproceedings{10.1145/3377325.3377490,
 author = {Lair, Nicolas and Delgrange, Clement and Mugisha, David and Dussoux, Jean-Michel and Oudeyer, Pierre-Yves and Dominey, Peter Ford},
 title = {User-in-the-Loop Adaptive Intent Detection for Instructable Digital Assistant},
@@ -54,4 +54,4 @@ keywords = {digital assistant, user-in-the-loop, learning by interaction, intent
 location = {Cagliari, Italy},
 series = {IUI ’20}
 }
-  
+ ```
