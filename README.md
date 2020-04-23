@@ -1,4 +1,7 @@
 # AidMe
+This the code of the paper  
+
+available here https://dl.acm.org/doi/abs/10.1145/3377325.3377490 or on arxiv
 
 ## Installation
 
