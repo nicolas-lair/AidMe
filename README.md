@@ -28,7 +28,7 @@ conda activate aidme
 You can then run setup.sh to download some necessary data :
 
 ```
-./setup.sh
+bash setup.sh
 ```
 
 ## Reproducing demos
